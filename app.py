@@ -17,5 +17,5 @@ def message(data):
     print('Received message: {}'.format(data))
     send(data)
 
-if __name__ == "__main__":
-     socketio.run(app,debug=True,allow_unsafe_werkzeug=True )
+if __name__ == '__main__':
+    socketio.run(app)
